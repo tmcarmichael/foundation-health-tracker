@@ -1,6 +1,6 @@
 import sys
-from data_manager import DataManager
-from plotter import Plotter
+from src.data_manager import DataManager
+from src.plotter import Plotter
 
 def process_cli_arguments(data_manager, plotter):
     if len(sys.argv) == 1 or sys.argv[1].lower() in ['help', '-h', '--help']:
