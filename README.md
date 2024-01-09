@@ -1,8 +1,6 @@
 # Foundation Health Tracker
 
-The Foundation Health Tracker is a simple yet powerful CLI tool designed to help users track and visualize their daily health metrics. This tool allows users to record their sleep, nutrition, and exercise scores, and then visualize this data over different time spans.
-
-Completely open source and transparent program where you manage your data and can customize the CLI as desired.
+The Foundation Health Tracker is a simple yet powerful CLI tool designed to help users track and visualize key daily health metrics. This tool allows users to record their sleep, nutrition, and exercise scores, and then visualize this data over different time spans. FHT is a completely open source tool where you manage your data and can customize the CLI as desired.
 
 ## Features
 
@@ -44,6 +42,9 @@ python foundation.py update 6 8 7 2024-01-09
 ```
 
 #### Visualizing Health Data
+
+Example of plotted visual output:
+<img src="./assets/sample-display.png" alt="image" width="1200" height="auto">
 
 The default view is 7 days
 
